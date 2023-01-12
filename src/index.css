@@ -1,8 +1,17 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
  padding: 0;
- background-color: rgb(26, 25, 25);
+ background: hsla(323, 73%, 22%, 1);
+
+ background: linear-gradient(90deg, hsla(323, 73%, 22%, 1) 0%, hsla(192, 72%, 21%, 1) 33.333333333333336%, hsla(193, 49%, 28%, 1) 66.66666666666667%, hsla(192, 36%, 35%, 1) 100%);
+ 
+ background: -moz-linear-gradient(90deg, hsla(323, 73%, 22%, 1) 0%, hsla(192, 72%, 21%, 1) 33.333333333333336%, hsla(193, 49%, 28%, 1) 66.66666666666667%, hsla(192, 36%, 35%, 1) 100%);
+ 
+ background: -webkit-linear-gradient(90deg, hsla(323, 73%, 22%, 1) 0%, hsla(192, 72%, 21%, 1) 33.333333333333336%, hsla(193, 49%, 28%, 1) 66.66666666666667%, hsla(192, 36%, 35%, 1) 100%);
+ 
+ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5f0f40", endColorstr="#0f4c5c", GradientType=1 );
  height: 100vh;
 
  flex-direction: column;

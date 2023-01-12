@@ -3,15 +3,17 @@
   
 
 .quote-generator-container{
-    /* width:90%;
-    margin: 0 auto; */
+   
     width: 600px;
-    background-color: aliceblue;
+    background-color: white;
     padding: 15px;
     border: none;
     border-radius: 7px;
    
      
+}
+.quto-container{
+    color:  hsla(192, 72%, 21%, 1);
 }
 .generate-btn{
    
@@ -20,8 +22,15 @@
 }
 .generate-btn button{
     padding: 10px 15px;
-    background-color: rgb(26, 25, 25);
-    color: white;
+    background: hsla(192, 72%, 21%, 1);
+
+background: linear-gradient(90deg, hsla(192, 72%, 21%, 1) 0%, hsla(193, 49%, 28%, 1) 50%, hsla(192, 36%, 35%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(192, 72%, 21%, 1) 0%, hsla(193, 49%, 28%, 1) 50%, hsla(192, 36%, 35%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(192, 72%, 21%, 1) 0%, hsla(193, 49%, 28%, 1) 50%, hsla(192, 36%, 35%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0f4c5c", endColorstr="#255c6b", GradientType=1 );    color: white;
     cursor: pointer;
     border: none;
     border-radius: 5px;
@@ -35,6 +44,7 @@
     justify-content: end;
     color: gray;
     margin-top: -30px;
+    font-style: italic;
 }
 
 @media screen  and (max-width: 740px){
